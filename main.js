@@ -69,7 +69,7 @@ function take_snapshot2(){
 
     Webcam.snap(function(data_uri){
 
-        document.getElementById("result").innerHTML+="<img id='selfie_image' src='"+data_uri+"'><br>";
+        document.getElementById("result2").innerHTML+="<img id='selfie_image' src='"+data_uri+"'><br>";
 
     });
 
@@ -78,7 +78,7 @@ function take_snapshot3(){
 
     Webcam.snap(function(data_uri){
 
-        document.getElementById("result").innerHTML+="<img id='selfie_image' src='"+data_uri+"'>";
+        document.getElementById("result3").innerHTML+="<img id='selfie_image' src='"+data_uri+"'>";
 
     });
 
